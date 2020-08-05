@@ -27,7 +27,7 @@ def find_min_in_nested_arrays(src)
     low_temp_results = []
       while outer_index < src.count do
         inner_index = 0
-        lowest_temperature = src[row_index][0]
+        lowest_temperature = 100
           while inner_index < src[outer_index].count do
             if src[outer_index][inner_index] < lowest_temperature
             lowest_temperature = src[outer_index][inner_index]
