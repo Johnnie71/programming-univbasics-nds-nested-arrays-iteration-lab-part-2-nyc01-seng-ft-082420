@@ -4,11 +4,10 @@
    
 #   while row_index < src.count do
 #     element_index = 0 
-    
+#     minimum_num = 100
 #     while element_index < src[row_index].count do
 #       lowest_num = src[row_index][0]
-      
-#       if lowest_num < src[row_index][element_index]
+#        if lowest_num < src[row_index][element_index]
 #         lowest_num = src[row_index][element_index]
 #       end
       
